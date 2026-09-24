@@ -45,3 +45,14 @@ body[data-view="regia"] #regia{display:block!important}
 
 .visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
 @media(max-width:780px){.header{backdrop-filter:none}}
+
+
+/* Correzione contrasto nella scheda squadra */
+
+.team-profile .profile-cover h3 {
+    color: #FFF9E9;
+}
+
+.team-profile .profile-cover .kicker {
+    color: #F8E6C6;
+}
